@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="contact" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="contact.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <img src="https://user-images.githubusercontent.com/73388795/105457592-123cbc80-5cad-11eb-9ab0-7503857eabd9.png" style="width: 80px; height: 80px;">
+            <ul> 
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <form action="search.html">
+            <input class="form-input" type="text" name="query" placeholder="Article Search">
+            <button class="btn">Search</button>
+        </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content max-width-1 m-auto">
+        <div class="max-width-1 m-auto">
+            <hr>
+            <h1>Get in Touch</h1>
+            
+            <div class="contact-form">
+                <form class="form" id="form" action="https://formspree.io/f/mrgojlqq" method="post"></form>
+                <div class="form-box">
+                    <input type="text"id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-box">
+                    <input type="number" id="number" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-box">
+                    <input type="email" id="email" placeholder="Enter Your Email ID">
+                </div>
+                <div class="form-box">
+                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Drop a Message"></textarea>
+                </div>
+                <div class="form-box">
+                    <button type="button" class="btn" id="btn">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer max-width- m-auto">
+        <p>Copyright &copy; BlogforLearners.com</p>
+    </div>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+      formbutton("create", {action: "https://formspree.io/f/mrgojlqq"})
+    </script>
+</body>
+</html>
