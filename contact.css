@@ -1,22 +1,22 @@
-.contact-content{
-    padding: 9px;
-    margin-top: 32px;
-    position: relative;
-    height: 10vh;
-    overflow: hidden;
-}
-.contact-content::after{
-   content: "";
-   background-image: url('../img11.jpg');
-   position: absolute;
-   top: 0;
-   width: 100%;
-   height: inherit;
-   opacity: 0.2;
-   border-radius: 12px; 
-   z-index: -1;
-}
-.btn:hover{
-    color: tomato;
+
+  .icon{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 52px;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+.max-width-1{
+    padding-right: 53px;
+    align-self: center;
     cursor: pointer;
 }
+  .icon p{
+      text-decoration: none;
+      color: azure;
+      font-size: 72px;
+      flex-direction: column;
+      font-family: fantasy;
+  }
